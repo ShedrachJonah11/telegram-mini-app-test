@@ -75,7 +75,7 @@ const Game: React.FC = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold mb-6">
+      <h1 className="text-4xl text-center font-bold mb-6">
         Current Bitcoin Price: ${price.toFixed(2)}
       </h1>
       <div className="flex space-x-4">
